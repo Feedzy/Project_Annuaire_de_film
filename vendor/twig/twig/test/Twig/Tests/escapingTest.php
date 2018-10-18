@@ -305,7 +305,7 @@ class Twig_Test_EscapingTest extends \PHPUnit\Framework\TestCase
 
     public function testCssEscapingEscapesOwaspRecommendedRanges()
     {
-        // CSS has no exceptions to escaping ranges
+        // css has no exceptions to escaping ranges
         for ($chr = 0; $chr < 0xFF; ++$chr) {
             if ($chr >= 0x30 && $chr <= 0x39
             || $chr >= 0x41 && $chr <= 0x5A

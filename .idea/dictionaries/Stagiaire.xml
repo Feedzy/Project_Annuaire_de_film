@@ -2,12 +2,23 @@
   <dictionary name="Stagiaire">
     <words>
       <w>accueil</w>
+      <w>ajout</w>
+      <w>ajoutcontroller</w>
       <w>annuaire</w>
       <w>avec</w>
+      <w>compteur</w>
       <w>dbname</w>
       <w>données</w>
       <w>echoué</w>
+      <w>indexcontroller</w>
       <w>liste</w>
+      <w>nationnalite</w>
+      <w>personnage</w>
+      <w>prenom</w>
+      <w>reali</w>
+      <w>realisateur</w>
+      <w>sexe</w>
+      <w>taille</w>
     </words>
   </dictionary>
 </component>
