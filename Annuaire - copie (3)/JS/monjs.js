@@ -1,4 +1,3 @@
-/*
 document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.sidenav');
     var instances = M.Sidenav.init(elems,open);
@@ -31,21 +30,14 @@ function changeImag(){
 
     setTimeout ("changeImag()",time);
 }
-
-var instance = M.Carousel.init({
-    fullWidth: true,
-    indicators: true
-  });
-
-  // Or with jQuery
-
-  $('.carousel.carousel-slider').carousel({
-    fullWidth: true,
-    indicators: true
-  });
 window.onload=changeImag;
 
+// Or with jQuery
 
-*/
-// CAROUSEL
+$(document).ready(function(){
+    $('.collapsible').collapsible();
+});
+
+
+
 

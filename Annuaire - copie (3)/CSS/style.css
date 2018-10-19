@@ -1,0 +1,129 @@
+.carousel .carousel-item{
+    visibility:visible;
+    width: 300px;
+    position: absolute;
+    top: -10em;
+    left: 0;
+}
+.carousel {
+    position: absolute;
+    height:100% ;
+    width: 100%;
+
+
+}
+.section.slid img {
+    position: absolute;
+    width: 100%;
+
+}
+.section {
+    position: relative;
+    height: 130px;
+    width: 100%;
+}
+.slid{
+
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+footer{
+    position: relative;
+    bottom: -40em;
+}
+span{
+    color: #0D47A1;
+    font-family:"Baskerville Old Face";
+}
+.input-field{
+    width: 300px;
+    float: right;
+}
+.collapsible{
+    position: absolute;
+    top: 20em;
+    width: 100%;
+}
+
+
+.bra{
+position: absolute;
+    left: 90px;
+
+}
+.brand-logo{
+    position: absolute;
+    text-align: left;
+
+}
+.fil{
+    position: absolute;
+    right: 8.7em;
+}
+.filS{
+    position: absolute;
+width: 90px;
+}
+.filL{
+    position: absolute;
+    right: 12.8em;
+}
+.ACC{
+    position: absolute;
+    right: 6em;
+}
+.ACCC{
+    position: absolute;
+    right: 3em;
+}
+.baby{
+    position: absolute;
+    width: 190px;
+
+
+}
+
+.card{
+    position: absolute;
+    width: 180px;
+
+
+}
+.card-action{
+    position: absolute;
+    width: 180px;
+
+
+}
+.card-action2{
+    position: absolute;
+    width: 180px;
+
+
+}
+.card-action1{
+    position: absolute;
+    width: 187px;
+
+}
+.card-action3{
+    position: absolute;
+    width: 187px;
+
+}
+.card-action4{
+    position: absolute;
+    width: 180px;
+
+
+
+}
+.films{
+    position: absolute;
+    top: 13em;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+}

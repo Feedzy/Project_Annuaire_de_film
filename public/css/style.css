@@ -1,3 +1,5 @@
+
+/*
 .carousel .carousel-item{
     visibility:visible;
     width: 300px;
@@ -27,6 +29,7 @@
     opacity: 0.5;
     filter: alpha(opacity=50); /* For IE8 and earlier */
 }
+/*
 footer{
     position: relative;
     bottom: -40em;
@@ -43,7 +46,7 @@ span{
 /*
     partie affichage du system de card
  */
-
+/*
 * {
     -webkit-transition: 300ms;
     transition: 300ms;
@@ -230,3 +233,104 @@ a:hover {
         margin: 0;
     }
 }
+*/
+select .sub-category {
+    padding-left: 10px;
+  }
+  
+  .item-description {
+    margin-top: 7px;
+    padding-top: 7px;
+  }
+  
+  .item-price {
+    font-size: 17px;
+    font-family: 'Roboto-Light', 'OpenSans';
+  }
+  
+  .icon {
+    background-color: rgb(12, 158, 199);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    color: white;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 3px;
+    margin-top: 4px;
+  }
+  
+  .card-action {
+    height: 50px;
+  }
+  
+  .fixed-action-btn-share {
+    position: absolute;
+    bottom: 0px;
+    margin-bottom: 10px;
+    z-index: 1;
+    display: inline-block;
+  }
+  
+  .premium {
+    border: 1px solid gray;
+  }
+  
+  .premium .ico {
+    content: '';
+    display: block;
+    height: 19px;
+    /*height of icon */
+    width: 89px;
+    /*width of icon */
+    position: absolute;
+    display: inline-block;
+    /*where to replace the icon */
+    top: 10px;
+    right: -4px;
+    /*background */
+    background: #F8E6AE url(http://www.humanfirstconsulting.com/img/premiumTag.png) no-repeat 0px 0px;
+  }
+  
+  .premium .icostar:after {
+    content: '\f005';
+    font-family: FontAwesome;
+    border: 1px solid black;
+    font-size: 25px;
+    padding: 6px;
+    color: yellow;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    display: inline-block;
+    /*where to replace the icon */
+    top: -1px;
+    right: -1px;
+    /*background */
+    background: black no-repeat 0px 0px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

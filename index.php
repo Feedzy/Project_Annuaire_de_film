@@ -26,7 +26,7 @@ switch ($url)
     break;
 
     case 'Ajout':
-        header('Location: controller/ajoutcontroller.php');
+    header('Location: controller/formualire.php');
     break;
 
     default:
