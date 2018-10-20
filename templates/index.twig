@@ -11,31 +11,64 @@
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic' rel='stylesheet' type='text/css'>
 </head>
 <body>
-    
-<header>
-    <nav>
-    <div class="nav-wrapper">
-      <a href="" class="brand-logo">Annuaire</a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="#">Film</a></li>
-        <li><a href="#">Series</a></li>
-        <li><a href="#">Top</a></li>
-      </ul>
+<div class="navbar-fixed" >
+    <nav class="nav-extended" >
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo"><img SRC="../public/img/ICO.png" class=" filS "><div class="bra">L<span>O</span>L<span>A</span>Tr<span>Ea</span>Mi<span>Ng</span></div></a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="affichage.html"><i class="large material-icons filL ">account_balance</i>Bienvenue</a></li>
+                <li><a href="films.html"> <i class="large material-icons fil ">switch_video</i>Films</a></li>
+                <li><a href="series.html"><i class="large material-icons ACC">local_movies</i>Series</a></li>
+                <li><a href="plus.html"><i class="large material-icons ACCC">hd</i>Voir plus</a></li>
+            </ul>
+        </div>
+        <div class="nav-content">
+            <form>
+                <div class="input-field">
+                    <input id="search" type="search" required>
+                    <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                    <i class="material-icons">close</i>
+                </div>
+            </form>
+            <ul class="tabs tabs-transparent">
+                <li class="tab"><a  class="active" href="#test1">Top films</a></li>
+                <li class="tab"><a class="active" href="#test2">Top series</a></li>
+                <li class="tab "><a  class="active" href="#test3">A venir</a></li>
+
+            </ul>
+        </div>
+    </nav>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="container">
+
+    <div class="row">
+    {% for result in film %}
+        <div class="col-xs-2">
+        <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="{{ result.image_video  }}">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">{{ result.titre_film }}<i class="material-icons right">more_vert</i></span>
+              <p><a href="#">{{ result.taille_film }}</a></p>
+            </div>
+            <div class="card-reveal">
+               <span class="card-title grey-text text-darken-4">{{ result.nom_genre }} <i class="material-icons right">close</i></span>
+                 <p>{{ result.text_description }}</p>
+            </div>
+       </div>
+   </div>
+    {% endfor %}
     </div>
-  </nav>
-</header>
-<div class="carousel carousel-slider">
-    <a class="carousel-item" href="#one!"><img src="https://lorempixel.com/800/400/food/1"></a>
-    <a class="carousel-item" href="#two!"><img src="https://lorempixel.com/800/400/food/2"></a>
-    <a class="carousel-item" href="#three!"><img src="https://lorempixel.com/800/400/food/3"></a>
-    <a class="carousel-item" href="#four!"><img src="https://lorempixel.com/800/400/food/4"></a>
-  </div>
-
-
-{% for result in items %}
-    
-{% endfor %}
-
+</div>
 
 
     <script src="../public/JS/jquery.min.js"></script>
